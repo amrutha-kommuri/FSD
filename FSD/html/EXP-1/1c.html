@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EXP-1c: Image Hyperlinks</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      color: darkblue;
+    }
+    .profile-images {
+      list-style: none;
+      padding: 0;
+    }
+    .profile-images li {
+      display: inline-block;
+      margin: 15px;
+      text-align: center;
+    }
+    .profile-images img {
+      width: 200px;
+      height: 200px;
+      border-radius: 10px;
+      border: 2px solid #333;
+      transition: 0.3s;
+    }
+    .profile-images img:hover {
+      transform: scale(1.05);
+      border-color: darkblue;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    .profile-images p {
+      margin-top: 8px;
+      font-weight: bold;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Profile and My Friends' Profiles</h1>
+  <p>Click on an image to visit the respective LinkedIn profile.</p>
+
+  <ul class="profile-images">
+    <li>
+      <a href="https://www.linkedin.com/in/amrutha-kommuri-49474a29b/" target="_blank">
+        <img src="./cat1.jpg" alt="Amrutha">
+      </a>
+      <p>Amrutha Kommuri</p>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/tarun-gude98/" target="_blank">
+        <img src="./catB.jpg" alt="Tarun">
+      </a>
+      <p>Tarun Gude</p>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/sitaram-manepalli-207602295/" target="_blank">
+        <img src="./catB.jpg" alt="SitaRam">
+      </a>
+      <p>SitaRam Manepalli</p>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/sripujitha-mullapudi-825a7a35b/" target="_blank">
+        <img src="./cat1.jpg" alt="Pujitha">
+      </a>
+      <p>Pujitha Mullapudi</p>
+    </li>
+  </ul>
+</body>
+</html>

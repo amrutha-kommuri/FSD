@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All-in-One Frames Example</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+    .frame {
+      flex: 1;
+      border: 1px solid #ccc;
+      overflow-y: auto;
+    }
+    /* Frame 1 - Images */
+    #frame1 {
+      background: #f0f8ff;
+      text-align: center;
+    }
+    #frame1 img {
+      border: 3px solid #333;
+      border-radius: 10px;
+      margin: 10px;
+      width: 120px;
+      height: 120px;
+    }
+    #frame1 h3 {
+      color: darkblue;
+      text-align: center;
+    }
+
+    /* Frame 2 - About Us */
+    #frame2 {
+      background: #fffbea;
+      padding: 15px;
+      line-height: 1.6;
+    }
+    #frame2 h3 {
+      text-align: center;
+      color: darkgreen;
+    }
+    #frame2 p {
+      font-size: 14px;
+      color: #444;
+      text-align: justify;
+    }
+
+    /* Frame 3 - Links */
+    #frame3 {
+      background: #f5f5f5;
+      text-align: center;
+    }
+    #frame3 h3 {
+      color: maroon;
+    }
+    #frame3 ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    #frame3 li {
+      margin: 10px 0;
+    }
+    #frame3 a {
+      text-decoration: none;
+      color: darkblue;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    #frame3 a:hover {
+      color: orange;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Frame 1 - Images -->
+    <div class="frame" id="frame1">
+      <h3>Profile Images</h3>
+      <div>
+        <img src="cat1.jpg" alt="amrutha Kommuri">
+        <img src="catB.jpg" alt="Tarun Gude">
+        <img src="catB.jpg" alt="Sitaram Manepalli">
+        <img src="cat1.jpg" alt="Pujitha Mullapudi">
+      </div>
+    </div>
+
+    <!-- Frame 2 - About Us -->
+    <div class="frame" id="frame2">
+      <h3>About Us</h3>
+      <p>
+        We are a group of four students currently pursuing our <b>B.Tech in Information Technology</b>.
+        Our team members include:
+      </p>
+      <p>
+        <b>amrutha Kommuri</b> – Enthusiastic learner with strong interest in web development and problem solving.<br>
+        <b>Tarun Gude</b> – Focused on database systems and backend technologies, always eager to explore new tools.<br>
+        <b>Sitaram Manepalli</b> – Passionate about software engineering concepts and enjoys working on collaborative projects.<br>
+        <b>Pujitha Mullapudi</b> – Interested in networking and security, with a keen eye for practical implementation.
+      </p>
+      <p>
+        Together, we are learning and building skills in the IT field while working on academic projects
+        and practicing real-world applications. This project demonstrates the usage of HTML layouts
+        to display images, information, and hyperlinks in a structured format.
+      </p>
+    </div>
+
+    <!-- Frame 3 - Links -->
+    <div class="frame" id="frame3">
+      <h3>LinkedIn Profiles</h3>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/amrutha-kommuri-49474a29b/" target="_blank">Amrutha Kommuri</a></li>
+        <li><a href="https://www.linkedin.com/in/tarun-gude98/" target="_blank">Tarun Gude</a></li>
+        <li><a href="https://www.linkedin.com/in/sitaram-manepalli-12345678/" target="_blank">Sitaram Manepalli</a></li>
+        <li><a href="https://www.linkedin.com/in/pujitha-mullapudi-87654321/" target="_blank">Pujitha Mullapudi</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
