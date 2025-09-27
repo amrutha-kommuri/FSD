@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input in JavaScript</title>
+</head>
+<body>
+    <h2>Input Methods in JavaScript</h2>
+    <p id="output"></p>
+
+    <script>
+        // 1. Using prompt()
+        let name = prompt("Enter your name:");
+
+        // 2. Using confirm()
+        let confirmMsg = confirm("Do you want to continue?");
+
+        // 3. Using form input (via DOM)
+        let age = prompt("Enter your age:");
+
+        document.getElementById("output").innerHTML = 
+            "Name: " + name + "<br>Age: " + age + "<br>Confirm: " + confirmMsg;
+    </script>
+</body>
+</html>
